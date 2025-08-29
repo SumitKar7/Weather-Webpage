@@ -1,0 +1,27 @@
+// configuration file for Weather App
+
+
+export const config = {
+  // OpenWeatherMap API Configuration
+  // Get your API key from: https://openweathermap.org/api
+  OPENWEATHER_API_KEY: '6545be6d092f5868efc3b04804fbd697',
+  
+  // Default location (optional)
+  DEFAULT_LOCATION: 'London',
+  
+  // Units (metric, imperial, kelvin)
+  UNITS: 'imperial',
+  
+  // Language (en, es, fr, de, etc.)
+  LANG: 'en',
+  
+  // API base URL
+  API_BASE_URL: 'https://api.openweathermap.org/data/2.5',
+  
+  // Geolocation timeout (in milliseconds)
+  GEOLOCATION_TIMEOUT: 10000,
+  
+  // Cache duration (in milliseconds) - 5 minutes
+  CACHE_DURATION: 5 * 60 * 1000,
+};
+
