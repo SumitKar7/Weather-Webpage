@@ -4,7 +4,7 @@
 export const config = {
   // OpenWeatherMap API Configuration
   // Get your API key from: https://openweathermap.org/api
-  OPENWEATHER_API_KEY: '6545be6d092f5868efc3b04804fbd697',
+  OPENWEATHER_API_KEY: 'Generate APi',
   
   // Default location (optional)
   DEFAULT_LOCATION: 'London',
